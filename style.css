@@ -1,0 +1,89 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+.container{
+    background-color: #f4f4f4;
+    max-width: 1400px;
+    margin:0 auto;
+}
+.header{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content:space-around;
+    align-items: center;
+    margin-top: 10px;
+}
+.baslik{
+    margin-left: 20px;
+    margin-right: 20px;
+    font-size: 2rem;
+}
+.text-con{
+    width: 800px;
+}
+.text1{
+    font-size: 30px;
+}
+.text2{
+    font-size: 20px;
+}
+img{
+    width: 300px;
+    margin: 2rem;
+    border-radius: 5px;
+    box-shadow: 2px 2px 20px black;
+    border-radius: 10px;
+}
+main{
+    width: 95%;
+    display: flex;
+    flex-wrap: wrap;
+    /* text-align: center; */
+    justify-content: center;
+    margin: 0 auto;
+}
+.image-normal{
+    text-align: left;
+    /* border: 2px solid red; */
+}
+.name{
+    margin-top: -15px;
+    padding-left: 30px;
+    font-size: 25px;
+    font-weight: 600;
+}
+.beruf{
+    margin-left: 2rem;
+    position: absolute;
+    top: 100px;
+    right: -70px;
+    transform: rotate(90deg);
+    font-size: 25px;
+}
+.foto-card{
+    position: relative;
+    margin: 10px 1rem;
+    /* border: 2px solid blue; */
+}
+.foto2{
+    margin-top:4rem ;
+}
+.foto5{
+    margin-top:4rem ;
+}
+@media screen and (max-width: 1251px) {
+    .foto5{
+        margin-top:0;
+    }
+    .foto4{
+        margin-top: 4rem;
+    }
+    .foto6{
+        margin-top: 4rem;
+    }
+}
